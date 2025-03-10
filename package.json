@@ -1,8 +1,8 @@
 {
-  "name": "prueba",
+  "name": "castbarr",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "prueba",
+  "productName": "castbarr",
   "author": "Juan Pablo Castillo Barrera <jpcb777@hotmail.com>",
   "type": "module",
   "private": true,
