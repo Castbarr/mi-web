@@ -11,7 +11,8 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
+        <q-toolbar-title class="toolbar-title">
+          <img src="favicon.ico" alt="logo" width="32" class="q-mr-sm" >
           Castbarr Desarrollos
         </q-toolbar-title>
       </q-toolbar>
@@ -25,8 +26,9 @@
       <q-list>
         <q-item-label
           header
+          class="text-h5"
         >
-          Essential Links
+          Indíce
         </q-item-label>
 
         <EssentialLink
@@ -98,3 +100,9 @@ function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
 </script>
+<style scoped>
+.toolbar-title{
+  display: flex;
+  align-items: center;
+}
+</style>
