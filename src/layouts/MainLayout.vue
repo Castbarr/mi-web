@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title class="toolbar-title">
-          <img src="favicon.ico" alt="logo" width="32" class="q-mr-sm" >
+          <img src="favicon.ico" alt="logo" width="32" class="q-mr-sm">
           Castbarr Desarrollos
         </q-toolbar-title>
       </q-toolbar>
@@ -26,7 +26,7 @@
       <q-list>
         <q-item-label
           header
-          class="text-h5"
+          class="text-h6 bg-primary text-white alt-indice"
         >
           Indíce
         </q-item-label>
@@ -104,5 +104,8 @@ function toggleLeftDrawer () {
 .toolbar-title{
   display: flex;
   align-items: center;
+}
+.alt-indice{
+  height: 50px;
 }
 </style>
